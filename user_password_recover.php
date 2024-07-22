@@ -41,7 +41,7 @@ if (isset($_POST['u_pass_recover'])) {
             $mail->Host       = 'smtp.gmail.com';                  // Set the SMTP server to send through
             $mail->SMTPAuth   = true;
             $mail->Username   = 'noreplyfruitsbazar.in.net@gmail.com';           // SMTP username
-            $mail->Password   = 'lkfikmbhvecnqagz';                // SMTP password
+            $mail->Password   = '';                // SMTP password
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;    // Enable TLS encryption
             
             $mail->Port       = 587;                               // TCP port to connect to
